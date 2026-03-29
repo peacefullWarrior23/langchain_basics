@@ -1,0 +1,16 @@
+[project]
+name = "langchain-basics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langchain-google-genai",
+    "langchain-community",
+    "langchain-groq",
+    "python-dotenv",
+    "ipykernel>=7.2.0",
+    "langchain-google-vertexai>=3.2.2",
+]
